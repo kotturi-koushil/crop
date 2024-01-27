@@ -34,7 +34,7 @@ def predict():
         ]
         ans = model.predict([inputs])
         return render_template("result.html", content=ans[0])
-    return render_template("index.html")
+   
 
 
 
