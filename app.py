@@ -32,8 +32,7 @@ def predict():
             float(phv),
             float(rainfall),
         ]
-        ans = model.predict([inputs])
-        return render_template("result.html", content=ans[0])
+
    
 
 
